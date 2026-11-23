@@ -3,46 +3,137 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b1020">
+<title>محمد صالح | مصمم جرافيك ومسوّق رقمي</title>
+<meta name="description" content="محمد صالح — مصمم جرافيك متخصص في تصميم الأكياس والكليشيهات، ومسوّق رقمي في جدة.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<title>محمد صالح | مصمم جرافيك ومسوّق</title>
 </head>
 <body>
-<header><nav class="container"><span class="logo">محمد صالح</span>
-<ul><li><a href="#about">نبذة</a></li><li><a href="#skills">مهاراتي</a></li><li><a href="#contact">تواصل</a></li></ul></nav></header>
+<div class="cursor-glow" aria-hidden="true"></div>
+<div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
 
-<div class="hero"><div class="container">
-<div class="avatar">م</div>
-<h1>محمد صالح</h1>
-<p>مصمم جرافيك ومسوّق رقمي، أحوّل أفكار العلامات التجارية إلى تصاميم تُطبع وتُباع وتنتشر.</p>
-<a class="btn" href="#contact">تواصل معي</a>
-</div></div>
+<header class="nav" id="nav">
+  <div class="container nav-in">
+    <a href="#top" class="brand">محمد<span>.</span></a>
+    <nav class="links" id="links">
+      <a href="#about">نبذة</a>
+      <a href="#skills">المهارات</a>
+      <a href="#journey">المسيرة</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+    <a href="#contact" class="btn btn-gold btn-sm hide-sm">تواصل معي</a>
+    <button class="burger" id="burger" aria-label="القائمة"><span></span><span></span></button>
+  </div>
+</header>
 
-<section id="about" class="about"><div class="container">
-<h2>نبذة عني</h2>
-<p>أعمل في تصميم الجرافيك منذ عدة سنوات، وتخصصت في تصميم الكليشيهات وأكياس التغليف للمصانع والمحلات التجارية.<br>
-إلى جانب التصميم أعمل في التسويق الرقمي، فأدير حسابات التواصل الاجتماعي وأصنع المحتوى الإعلاني للعملاء.<br>
-هدفي أن يخرج كل تصميم جاهزًا للطباعة، ومقنعًا للعميل في نفس الوقت.</p>
-</div></section>
+<main id="top">
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-text">
+      <span class="pill reveal">✦ السيرة الذاتية الرقمية</span>
+      <h1 class="reveal">محمد <em>صالح</em></h1>
+      <p class="roles reveal">أنا <span class="typed" id="typed"></span><span class="caret">|</span></p>
+      <p class="lead reveal">أصمم كليشيهات الأكياس والهويات البصرية للمصانع والمتاجر، وأدير حملات تسويقية تحوّل التصميم إلى مبيعات.</p>
+      <div class="cta reveal">
+        <a href="#contact" class="btn btn-gold">ابدأ مشروعك معي</a>
+        <a href="#about" class="btn btn-ghost">تعرّف عليّ ↓</a>
+      </div>
+      <div class="stats reveal">
+        <div><b data-count="6">0</b><span>+ سنوات خبرة</span></div>
+        <div><b data-count="350">0</b><span>+ تصميم مطبوع</span></div>
+        <div><b data-count="80">0</b><span>+ عميل ومصنع</span></div>
+      </div>
+    </div>
+    <div class="hero-art reveal">
+      <div class="ring"><div class="avatar">م</div></div>
+      <div class="float-tag t1">🎨 Illustrator</div>
+      <div class="float-tag t2">🛍️ تصميم أكياس</div>
+      <div class="float-tag t3">📈 تسويق رقمي</div>
+    </div>
+  </section>
 
-<section id="skills" class="alt"><div class="container">
-<h2>مهاراتي</h2>
-<div class="skills">
-<span class="skill">Adobe Illustrator</span>
-<span class="skill">تصميم الهويات والشعارات</span>
-<span class="skill">تجهيز ملفات الطباعة</span>
-<span class="skill">إدارة حسابات التواصل</span>
-<span class="skill">صناعة المحتوى الإعلاني</span>
-</div>
-</div></section>
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>كليشيهات</span>✦<span>هويات بصرية</span>✦<span>تغليف</span>✦<span>إعلانات سوشال ميديا</span>✦<span>ستيكرات</span>✦<span>تسويق رقمي</span>✦
+      <span>كليشيهات</span>✦<span>هويات بصرية</span>✦<span>تغليف</span>✦<span>إعلانات سوشال ميديا</span>✦<span>ستيكرات</span>✦<span>تسويق رقمي</span>✦
+    </div>
+  </div>
 
-<section id="contact" class="contact"><div class="container">
-<h2>تواصل معي</h2>
-<p>لديك مشروع تصميم أو حملة تسويقية؟ راسلني على البريد:</p>
-<a class="btn" href="mailto:mohammed.saleh@example.com">mohammed.saleh@example.com</a>
-</div></section>
+  <!-- ABOUT -->
+  <section id="about" class="section container">
+    <div class="sec-head reveal"><span class="num">01</span><h2>نبذة عني</h2></div>
+    <div class="about-grid">
+      <p class="about-text reveal">بدأت رحلتي في التصميم من داخل مصانع الأكياس، حيث تعلّمت أن التصميم الجميل لا يكفي إن لم يكن <strong>جاهزًا للطباعة</strong>. اليوم أصمم الكليشيهات والهويات بدقة تراعي عدد الألوان ومقاسات الطباعة وتكلفتها، وأكمل الطريق مع العميل في <strong>التسويق الرقمي</strong> حتى يصل منتجه للناس.</p>
+      <ul class="facts reveal">
+        <li><span>📍</span> جدة، المملكة العربية السعودية</li>
+        <li><span>💼</span> مصمم جرافيك ومسوّق رقمي</li>
+        <li><span>🗣️</span> العربية والإنجليزية</li>
+        <li><span>✅</span> متاح لمشاريع جديدة</li>
+      </ul>
+    </div>
+  </section>
 
-<footer>© 2026 محمد صالح — جميع الحقوق محفوظة</footer>
+  <!-- SKILLS -->
+  <section id="skills" class="section container">
+    <div class="sec-head reveal"><span class="num">02</span><h2>المهارات</h2></div>
+    <div class="skills-grid">
+      <article class="skill-card reveal">
+        <div class="ic">✒️</div><h3>Adobe Illustrator</h3><p>رسم فيكتور دقيق وتجهيز ملفات الكليشيه بلون واحد أو أكثر.</p>
+        <div class="bar"><i style="--w:95%"></i></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ic">🛍️</div><h3>تصميم الأكياس والتغليف</h3><p>تصاميم أكياس تيشيرت وتسوق وعلب تناسب خطوط الإنتاج.</p>
+        <div class="bar"><i style="--w:92%"></i></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ic">💎</div><h3>الهويات والشعارات</h3><p>شعارات وهويات بصرية متكاملة تعكس شخصية النشاط.</p>
+        <div class="bar"><i style="--w:85%"></i></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ic">📱</div><h3>إدارة حسابات التواصل</h3><p>خطط محتوى شهرية وجدولة ومتابعة للتفاعل والنتائج.</p>
+        <div class="bar"><i style="--w:80%"></i></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ic">🎯</div><h3>الإعلانات الممولة</h3><p>حملات على إنستغرام وسناب تستهدف العميل الصحيح.</p>
+        <div class="bar"><i style="--w:78%"></i></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section id="journey" class="section container">
+    <div class="sec-head reveal"><span class="num">03</span><h2>المسيرة</h2></div>
+    <ol class="timeline">
+      <li class="reveal"><span class="when">2026 — الآن</span><h3>مصمم ومسوّق مستقل</h3><p>أخدم المصانع والمتاجر في التصميم والتسويق، وأدير مشروعي الخاص لطباعة الاستيكرات.</p></li>
+      <li class="reveal"><span class="when">2022 — 2026</span><h3>مصمم كليشيهات أول</h3><p>تصميم وتجهيز مئات الكليشيهات لمصانع الأكياس، مع خفض تكلفة الطباعة للعملاء.</p></li>
+      <li class="reveal"><span class="when">2020 — 2022</span><h3>بداية المشوار</h3><p>تعلّم Illustrator والعمل على أول تصاميم الأكياس للمحلات المحلية.</p></li>
+    </ol>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section container">
+    <div class="contact-card reveal">
+      <span class="num">04</span>
+      <h2>خلّنا نبدأ مشروعك القادم</h2>
+      <p>عندك كيس يحتاج تصميم، أو نشاط يحتاج حضور أقوى على السوشال ميديا؟ راسلني الآن.</p>
+      <div class="cta center">
+        <a class="btn btn-gold" href="https://wa.me/966500000000" target="_blank" rel="noopener">💬 واتساب</a>
+        <a class="btn btn-ghost" href="mailto:mohammed.saleh@example.com">✉️ mohammed.saleh@example.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container foot-in">
+    <span>© <span id="year">2026</span> محمد صالح — جميع الحقوق محفوظة</span>
+    <a href="#top" class="totop" aria-label="للأعلى">↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
